@@ -1,0 +1,7 @@
+NUEVO PROYECTO:
+npx nuxi@latest init NombreProyecto
+
+yarn install
+
+yarn dev --open
+

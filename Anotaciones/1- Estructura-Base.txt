@@ -1,0 +1,14 @@
+https://nuxt.com/docs/guide/directory-structure/components
+
+assets/ (CSS,SASS)Fonts, Images
+components/
+composables/
+content/
+layouts/
+middleware/
+modules/
+pages/
+plugins/
+public/
+server/
+utils/

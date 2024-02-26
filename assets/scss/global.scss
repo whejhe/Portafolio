@@ -1,0 +1,13 @@
+//front/assets/scss/global.scss
+@font-face {
+    font-family: 'The Constellation';
+    src: url('~/assets/fonts/TheConstellation.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'The Constellation', sans-serif;
+    font-size: 3em;
+}
+
