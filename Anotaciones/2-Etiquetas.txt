@@ -1,0 +1,26 @@
+
+<nuxt />: Este componente se utiliza para mostrar las vistas de tu aplicación. 
+Nuxt.js automáticamente inyectará el componente correspondiente a la ruta actual en este lugar1.
+
+<nuxt-link to="/ruta">: Este componente se utiliza para navegar entre tus páginas. 
+Es similar al componente <router-link> de Vue.js, pero está optimizado para Nuxt.js1.
+
+<nuxt-child />: Este componente se utiliza dentro de las páginas de diseño para mostrar 
+los componentes de las sub-rutas1.
+
+<no-ssr>: Este componente se utiliza para envolver cualquier parte de tu aplicación que 
+no deba ser renderizada en el servidor. Esto puede ser útil si estás utilizando una 
+biblioteca que sólo funciona en el cliente1.
+
+<client-only>: Este componente es un alias para <no-ssr>, y también se utiliza para 
+envolver cualquier parte de tu aplicación que no deba ser renderizada en el servidor1.
+
+<nuxt-head>: Este componente se utiliza para añadir metaetiquetas específicas a tu página 
+actual1.
+
+<nuxt-loading>: Este componente se utiliza para personalizar la barra de carga de Nuxt.js2.
+
+<nuxt-error>: Este componente se utiliza para personalizar la página de error de Nuxt.js2.
+
+<nuxt-build-indicator>: Este componente se utiliza para mostrar un indicador durante
+el proceso de construcción en modo desarrollo2.

@@ -1,7 +1,11 @@
 <!-- app.vue -->
 <template>
   <div>
-    <h1>Carlos</h1>
+    <Header/>
     <NuxtWelcome />
   </div>
 </template>
+
+<script setup>
+
+</script>

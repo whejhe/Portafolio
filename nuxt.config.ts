@@ -2,6 +2,12 @@
 import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
+  components: [
+    {
+      path: '~/components',
+      pathPrefix: false,
+    },
+  ],
   devtools: { enabled: true },
   css: ['~/assets/scss/global.scss'],
   vite: {
@@ -9,7 +15,7 @@ export default defineNuxtConfig({
       preprocessorOptions: 
        {
         scss: {
-          additionalData: ``
+          additionalData: '',
         }
       }
     }
